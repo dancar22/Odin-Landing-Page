@@ -92,9 +92,50 @@ a:hover {
     color: #F9FAF8;
     font-weight: 800;
 
+}
 
-
-
+.box-image {
+    width:150px;
+    height: 150px;
+    object-fit:cover;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
 
 }
+
+.second-title {
+    font-size: 36px;
+    font-weight: 800;
+    
+    color:#1F2937;
+    margin:40px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-two {
+    display: flex;
+    justify-content:center;
+    gap: 60px;
+    padding-left:120px;
+    padding-right:120px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.pretty-box {
+    width:150px;
+    text-align: center;
+    font-family: Helvetica, Arial, Times;
+    color: #1F2937;
+    font-size: 18px;
+}
+
+
+
 
